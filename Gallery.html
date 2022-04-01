@@ -1,0 +1,144 @@
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: nunito;
+        font-size: 14px;
+        
+    }
+    
+    .container{
+        width: auto;
+        
+    height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(gh.jpg);
+        
+     
+        
+        background-position: top;
+        background-size:cover;
+        padding: 50px 8%;
+    }
+    .navbar{
+        width: 95%;
+        margin: auto;
+        padding: 75px 0;
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+    }
+    .logo{
+        width: 200px;
+        cursor: pointer;
+
+    }
+    .navbar ul li{
+        list-style: square;
+        display: inline-block;
+        margin: 0 20px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color:rgb(0, 0, 0);
+        text-transform: uppercase;
+    }
+    
+   
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        grid-gap:30px
+    }
+    .gallery img{
+        width: 100%;
+    }
+
+</style>
+
+
+
+
+
+
+
+<html>
+    <title>Website Design</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- MDB -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+    rel="stylesheet"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lightbox.css">
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+  ></script>
+  <body>
+     
+        
+     
+       
+           
+          
+          
+          <center>
+           <div class="container" >
+            <div class="navbar">
+                <img src="emi.png" class="logo">
+                <ul>
+                    <li><a href="/mim/homepage">HOME</a></li>
+                        <li><a href="/mim/call">BOOKING</a></li>
+                        <li><a href="/mim/holidaypage">HOLIDAYS</a></li>
+                        <li><a href="/mim/Aboutpage">ABOUT</a></li>
+                        <li><a href="/mim/loginpage">LOGIN</a></li>
+                </ul>
+                
+               </div> </div>
+              
+              
+           
+               <div class="gallery">
+                   <a href="1.jpg" data-lightbox="models" data-title="caption1">
+                   <img src="1.jpg"></a>
+
+                   <a href="2.jpg" data-lightbox="models" data-title="caption1">
+                    <img src="2.jpg"></a>
+
+                    <a href="3.jpg" data-lightbox="models" data-title="caption1">
+                        <img src="3.jpg"></a>
+
+                        <a href="4.jpg" data-lightbox="models" data-title="caption1">
+                            <img src="4.jpg"></a>
+
+                            <a href="5.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="5.jpg"></a>
+
+                                <a href="1.jpg" data-lightbox="models" data-title="caption1">
+                                    <img src="1.jpg"></a>
+
+           </div>
+       
+    </div>
+    </center>
+    <script src="lightbox-plus-jquery.js"> 
+    </script>
+
+  </body>  
+  <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+></script>
+</html>
